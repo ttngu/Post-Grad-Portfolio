@@ -29,30 +29,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'quarantinegame.png',
     title: 'The Quarantine Game',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'A virtual drinking card game, revolving around the theme of 2020 social distancing.',
+    info2: 'HTML/CSS, Javascript, Socket.io, MySQL, sequelize and Bootstrap',
+    url: 'https://gentle-cliffs-28390.herokuapp.com/',
+    repo: 'https://github.com/ttngu/QuarantineGame', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Home Cooked Comfort',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Recipe search web application to help add some variety to your quarantine meals.',
+    info2: 'HTML/CSS, JavaScript, jQuery, AJAX, third party and server side APIs',
+    url: 'https://tchristensendrumz.github.io/Home-Cooked-Comfort/',
+    repo: 'https://github.com/TChristensenDrumz/Home-Cooked-Comfort', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'postit.png',
     title: 'PostIt',
-    info: '',
-    info2: '',
+    info: 'A holistic self-care platform for men to learn and explore techniques and products.',
+    info2: 'HTML/CSS, Javascript, MySql, React, Node.js, Express, AJAX, Bootstrap, AWS S3',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/candygarcia014/PostIt', // if no repo, the button will not show up
   },
 ];
 

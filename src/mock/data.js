@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'The Quarantine Game',
     info: '',
     info2: '',
     url: '',
@@ -39,7 +39,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Home Cooked Comfort',
     info: '',
     info2: '',
     url: '',
@@ -48,7 +48,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'PostIt',
     info: '',
     info2: '',
     url: '',

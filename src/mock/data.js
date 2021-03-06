@@ -58,9 +58,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: 'Get in touch',
+  email: 'tammyn137@gmail.com',
 };
 
 // FOOTER DATA
@@ -79,12 +79,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/tamngu/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ttngu',
     },
   ],
 };

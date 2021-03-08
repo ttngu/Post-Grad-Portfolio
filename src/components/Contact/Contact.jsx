@@ -3,10 +3,17 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import GithubButtons from '../GithubButtons/GithubButtons';
+
+import { githubButtons } from '../../mock/data';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
   const { cta, btn, email } = contact;
+
+  const { footer } = useContext(PortfolioContext);
+  const { networks } = footer;
+  const { isEnabled } = githubButtons;
 
   return (
     <section id="contact">
@@ -26,6 +33,24 @@ const Contact = () => {
               {btn || "Let's Talk"}
             </a>
           </div>
+
+          <div className="social-links">
+          {networks &&
+            networks.map((network) => {
+              const { id, name, url } = network;
+              return (
+                <a
+                  key={id}
+                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label={name}
+                >
+                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                </a>
+              );
+            })}
+        </div>
         </Fade>
       </Container>
     </section>

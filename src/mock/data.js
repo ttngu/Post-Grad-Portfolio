@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: 'When COVID-19 hit Seattle, my lifestyle was forced to change. I began an ice cream business, making and selling small batches of oat milk based ice cream. The decision to use oat milk was due to my own personal dietary restrictions and food allergies. My love for ice cream runs through my veins, but I noticed there was a lack of alternative options that did not taste like cardboard. I chose to create flavors that were unique to my Asian American upbringing that were also not widely available on the market. Although this was a successful business, I grew more interested in web design through creating my first online store-front. This led me to realize that I have a natural desire to create web applications with a fluid data flow and calming, intuitive UI.',
   paragraphThree: 'I decided to pursue a formal education in Full Stack Web Development at UCLA through remote learning. This intensive certificate program was completed in 12 short weeks, clocking over 100 classroom hours, and 925+ Git commits. The course was rigorous, yet taught me that I am capable of learning, adapting and collaborating in various environments.',
   paragraphFour: 'As a passionate, self-starter, I am excited to begin my career as a Full Stack Web Developer within a fast paced, collaborative company.',
-  resume: 'https://ttngu.github.io/Post-Grad-Portfolio/src/images/TammyNguyen-Resume.pdf', // if no resume, the button will not show up
+  resume: 'https://ttngu.github.io/Post-Grad-Portfolio/src/images/TammyNguyenResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

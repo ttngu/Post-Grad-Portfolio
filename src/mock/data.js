@@ -49,7 +49,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'postit.png',
     title: 'PostIt',
-    info: 'A holistic self-care platform for men to learn and explore techniques and products.',
+    info: 'A holistic, innovative self-care platform for men to learn and explore techniques and products.',
     info2: 'HTML/CSS, Javascript, MySql, React, Node.js, Express, AJAX, Bootstrap, AWS S3',
     url: '',
     repo: 'https://github.com/candygarcia014/PostIt', // if no repo, the button will not show up
